@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Dori Rosenberg</title>
+		<title>Project #1</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta name="description" content="Projects, facts, and other weird things from Dori Rosenberg.">
@@ -20,7 +20,7 @@
 		<!-- Header -->
 			<header id="header" class="alt">
 				<div class="container">
-					<a href="projects.html" class="active">PROJECTS</a><a href="facts.html">FACTS</a><a href="about.html">ABOUT</a>
+					<a href="index.html" class="active">PROJECTS</a><a href="facts.html">FACTS</a><a href="about.html">ABOUT</a>
 				</div>
 			</header>
 
@@ -28,42 +28,39 @@
 			<div id="main">
 			<!-- One -->
 				<div class=container>
-					<h2>AI</h2>
-					<div class="project odd">
-						<a href="http://sfstreets.noahveltman.com/" class="screenshot"><div class="background" style="background-image: url('/img/sfstreets.png');"></div><div class="screen"></div><span>Isometric 3d creator</span></a>
-						<div class="description">Create 3d artifacts using 3 or more 2d side projections</div>
+					<div class=container style="padding:10px">
+						<h2>Form and Structure</h2>
+						Bezalel Academy of Arts and Design | 2019
 					</div>
-					<div class="project even">
-						<a href="/nflplayers/" class="screenshot"><div class="background" style="background-image: url('/img/nflplayers.png');"></div><div class="screen"></div><span>Face Morph</span></a>
-						<div class="description">Contribute your face to a local face morph video using StyleGAN.</div>
+					<!-- The expanding image container -->
+					<div class="image_container">
+					  <!-- Close the image -->
+					  <!--    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+					  <!-- Expanded image -->
+					  <img id="expandedImg" style="height:100%;display:block;margin-left:auto;margin-right:auto" src="images/fs_1/fs_1_1.jpg">
+
 					</div>
 
-					<h2>Design</h2>
-					<div class="project odd">
-						<a href="http://sfstreets.noahveltman.com/" class="screenshot"><div class="background" style="background-image: url('/img/sfstreets.png');"></div><div class="screen"></div><span>Sfinati</span></a>
-						<div class="description">Displacing different objects using graphic cardboard.</div>
-					</div>
-					<div class="project even">
-						<a href="/nflplayers/" class="screenshot"><div class="background" style="background-image: url('/img/nflplayers.png');"></div><div class="screen"></div><span>Parametric african head carry</span></a>
-						<div class="description">Parametric Design for bla bla bla.</div>
-					</div>
-					<div class="project odd">
-						<a href="http://sfstreets.noahveltman.com/" class="screenshot"><div class="background" style="background-image: url('/img/sfstreets.png');"></div><div class="screen"></div><span>Sfinati 2</span></a>
-						<div class="description">copy from erez description.</div>
-					</div>
-					<div class="project even">
-						<a href="/nflplayers/" class="screenshot"><div class="background" style="background-image: url('/img/nflplayers.png');"></div><div class="screen"></div><span>Parametric african head carry</span></a>
-						<div class="description">Parametric Design for bla bla bla.</div>
-					</div>
-					<div class="project odd">
-						<a href="http://sfstreets.noahveltman.com/" class="screenshot"><div class="background" style="background-image: url('/img/sfstreets.png');"></div><div class="screen"></div><span>Sfinati</span></a>
-						<div class="description">copy from erez description.</div>
-					</div>
-					<div class="project even">
-						<a href="/nflplayers/" class="screenshot"><div class="background" style="background-image: url('/img/nflplayers.png');"></div><div class="screen"></div><span>Parametric african head carry</span></a>
-						<div class="description">Parametric Design for bla bla bla.</div>
+					<!-- The grid: four columns -->
+					<div class="row">
+					  <div class="column">
+						<img src="images/fs_1/fs_1_1.jpg" alt="Nature" onclick="myFunction(this);">
+					  </div>
+					  <div class="column">
+						<img src="images/fs_1/fs_1_2.jpg" alt="Snow" onclick="myFunction(this);">
+					  </div>
+					  <div class="column">
+						<img src="images/fs_1/fs_1_3.jpg" alt="Mountains" onclick="myFunction(this);">
+					  </div>
+					  <div class="column">
+						<img src="images/fs_1/fs_1_4.jpg" alt="Lights" onclick="myFunction(this);">
+					  </div>
 					</div>
 
+					
+
+				</div>
 				<!-- Footer -->
 					<footer id="footer">						
 						<div class="container">
@@ -88,6 +85,8 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/dori.js"></script>
+
 
 	</body>
 </html>
