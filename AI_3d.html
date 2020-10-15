@@ -228,17 +228,35 @@
   <div id="main">
 
     <div class="container-outer">
-      <div class="container">
-        <div class=container style="padding:10px">
-          <h2>Isometric 3D Creator</h2>
-          Hebrew University in Jerusalem | 2020
-        </div>
-        <iframe src="https://player.vimeo.com/video/463854877" width="640" height="360" frameborder="0"
+					<div class=container style="padding:10px">
+						<h2>Isometric 3D Creator</h2>
+						Hebrew University in Jerusalem | 2020
+          </div>
+          
+          <iframe src="https://player.vimeo.com/video/463854877" width="640" height="360" frameborder="0"
           allow="autoplay; fullscreen" allowfullscreen></iframe>
-      </div>
 
-      <div class="answer">Using search algorithms and CSP, the program creates 3d shapes that correspond to given 2d
-        images.</div>
+					<!-- The expanding image container -->
+					<div class="image_container">
+					  <!-- Close the image -->
+					  <!--    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+					  <!-- Expanded image -->
+					  <img id="expandedImg" style="height:100%;width:100%;padding:10px;object-fit:scale-down;display:block;margin-left:auto;margin-right:auto" src="images/AI_3d/ai_person.gif">
+
+					</div>
+
+					<!-- The grid: four columns -->
+					<div class="row">
+					  <div class="column">
+						<img src="images/AI_3d/ai_person.gif" onclick="myFunction(this);">
+					  </div>
+					  <div class="column">
+						<img src="images/AI_3d/ai_ying.gif" onclick="myFunction(this);">
+					  </div>
+					</div>
+					<div class="answer">Using search algorithms and CSP, the program creates 3d shapes that correspond to given 2d
+            images. <a href="images/AI_3d/AI_3D.pdf">Article</a>, and <a href="https://github.com/Dori203/Dirty-Projectors">code</a></div>
 
       <!--<div class="faq">
 			  <div class="question">Where is the data from?</div>
