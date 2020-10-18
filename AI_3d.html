@@ -15,200 +15,6 @@
   <link rel="stylesheet" href="./NFL players_ height &amp; weight over time_files/css" type="text/css">
   <link rel="stylesheet" href="./NFL players_ height &amp; weight over time_files/jquery.nouislider.css"
     type="text/css">
-  <style>
-    body {
-      font-family: Lato, Arial, Helvetica, Verdana, sans-serif;
-      background-color: #fff;
-      color: #000;
-      padding: 0px;
-      margin: 0;
-      font-size: 13px;
-    }
-
-    div {
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box;
-    }
-
-    div.title {
-      padding-top: 10px;
-      font-size: 24px;
-      font-weight: bold;
-    }
-
-    div.description {
-      font-size: 14px;
-    }
-
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    rect {
-      shape-rendering: crispEdges;
-    }
-
-    .clear {
-      clear: both;
-    }
-
-    .axis path,
-    .axis line {
-      fill: none;
-      stroke: #333;
-      shape-rendering: crispEdges;
-    }
-
-    div.container-outer {
-      padding: 0px 10px;
-      margin-left: auto;
-      margin-right: auto;
-      width: 640px;
-    }
-
-    .axis text {
-      font-size: 12px;
-    }
-
-    .axis .axis-label {
-      text-anchor: middle;
-      font-weight: bold;
-      fill: #333;
-      font-size: 13px;
-    }
-
-    rect.bg {
-      fill: #e3e3e3;
-      stroke: none;
-    }
-
-    circle {
-      fill: blue;
-      stroke: none;
-      shape-rendering: crispEdges;
-    }
-
-    text.chart-title {
-      font-size: 30px;
-      font-weight: bold;
-      text-anchor: end;
-    }
-
-    div.chart {
-      padding-bottom: 20px;
-    }
-
-    div.header {
-      padding-bottom: 12px;
-    }
-
-    span.year {
-      position: relative;
-      top: 32px;
-      right: 3px;
-      text-align: center;
-      font-weight: bold;
-      display: block;
-      font-size: 16px;
-      pointer-events: none;
-      -webkit-touch-callout: none;
-      -webkit-user-select: none;
-      -khtml-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-    }
-
-    div#play {
-      cursor: pointer;
-      float: left;
-      width: 51px;
-      height: 51px;
-      border: 1px solid #d9d9d9;
-      border-radius: 3px;
-      background: #fff;
-      padding-top: 15px;
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-      font-weight: bold;
-      color: #666;
-      box-shadow: inset 0 0 1px #fff,
-        inset 0 1px 7px #ebebeb,
-        0 3px 6px -3px #bbb;
-      text-align: center;
-      position: relative;
-      bottom: 15px;
-      margin-left: 40px;
-      -webkit-touch-callout: none;
-      -webkit-user-select: none;
-      -khtml-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-    }
-
-    div#play:hover {
-      color: #333;
-      border-color: #999;
-    }
-
-    div#play:active {
-      left: 1px;
-      bottom: 14px;
-    }
-
-    div#slider {
-      float: left;
-      width: 300px;
-      margin-left: 40px;
-      margin-right: 20px;
-    }
-
-    div.controls {
-      display: none;
-    }
-
-    div.noUi-base,
-    div.noUi-handle {
-      cursor: pointer;
-    }
-
-    div.noUi-handle:hover {
-      border-color: #999;
-    }
-
-    .noUi-connect {
-      background-color: #cb181d;
-    }
-
-    rect.chart-title-background {
-      fill: #fff;
-      stroke: #e3e3e3;
-      stroke-width: 1px;
-    }
-
-    g.legend text {
-      text-anchor: start;
-      text-rendering: optimizeLegibility;
-    }
-
-    div.faq {
-      padding-top: 20px;
-    }
-
-    div.question {
-      font-weight: bold;
-      padding-bottom: 2px;
-    }
-
-    div.answer {
-      padding-left: 8px;
-      line-height: 135%;
-      padding-bottom: 12px;
-    }
-  </style>
 
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://noahveltman.com/nflplayers/">
@@ -227,14 +33,11 @@
   </header>
   <div id="main">
 
-    <div class="container-outer">
+    <div class="container">
       <div class=container style="padding:10px">
         <h2>Isometric 3D Creator</h2>
         Hebrew University in Jerusalem | 2020
       </div>
-
-      <iframe src="https://player.vimeo.com/video/463854877" width="640" height="360" frameborder="0"
-        allow="autoplay; fullscreen" allowfullscreen></iframe>
 
       <!-- The expanding image container -->
       <div class="image_container">
@@ -263,9 +66,13 @@
           <img src="images/AI_3d/ai_usa_gun.gif" onclick="myFunction(this);">
         </div>
       </div>
+
+      <iframe src="https://player.vimeo.com/video/463854877" width="640" height="360" frameborder="0"
+      allow="autoplay; fullscreen" allowfullscreen></iframe>
+
       <div class="answer">Using search algorithms and CSP, the program creates 3d shapes that correspond to given 2d
-        images. <a href="images/AI_3d/AI_3D.pdf">Article</a>, and <a
-          href="https://github.com/Dori203/Dirty-Projectors">code</a></div>
+        images. <a href="images/AI_3d/AI_3D.pdf">Article</a>, <a
+          href="https://github.com/Dori203/Dirty-Projectors">code</a>.</div>
 
       <!--<div class="faq">
 			  <div class="question">Where is the data from?</div>
